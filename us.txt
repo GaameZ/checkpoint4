@@ -1,0 +1,7 @@
+en tant qu’administrateur, je dois pouvoir ajouter ou supprimer des numéros de cirque
+en tant qu’administrateur, j’ai la possibilité d’ajouter des cirques sur la carte avec la latitude et longitude.
+en tant que visiteur, je dois pouvoir me connecter sur l’espace administration.
+en tant que visiteur, je dois pouvoir ajouter des entrées à mon panier
+en tant que visiteur, je dois pouvoir payer par carte bancaire (fake)
+en tant que visiteur, j’ai la possibilité de voir les cirques sur une carte
+en tant que visiteur, j’ai la possibilité de voir les numéros de cirque
