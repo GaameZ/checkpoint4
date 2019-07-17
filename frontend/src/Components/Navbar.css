@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Squada One", cursive;
+  src: url("https://fonts.googleapis.com/css?family=Squada+One&display=swap");
+}
+
+.navbar-container {
+  background: rgba(71, 71, 71, 0.336);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 80vw;
+  margin: 0 auto 0 auto;
+  z-index: 1;
+  color: white;
+  box-shadow: 3px 3px 3px rgb(31, 31, 31);
+}
+
+.navbar-logo {
+  width: 20vw;
+  margin-left: 3vw;
+  font-family: "Squada One";
+  font-size: 25px;
+}
+
+.navbar-logo:link,
+.navbar-logo:visited,
+.navbar-logo:hover,
+.navbar-logo:active {
+  color: white !important;
+}
+
+.navbar-items-full {
+  width: 40vw;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5vw;
+}
+
+.navbar-items-full .navbar-p {
+  margin: 2% 2%;
+}
+
+.navbar-toggler-mini {
+  display: none;
+}
+
+.navbar-items-mini {
+  max-width: 100vw;
+  text-align: right;
+  padding-right: 5vw;
+}
+
+.navbar-cart {
+  filter: invert(1);
+}
+
+@media (max-width: 991px) {
+  .navbar-container {
+    width: 100%;
+    margin: 0;
+  }
+}

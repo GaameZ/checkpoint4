@@ -1,0 +1,17 @@
+const portNumber = 42;
+const mysql = require("mysql");
+const db = mysql.createConnection({
+  host: "host",
+  user: "user",
+  password: "password",
+  database: "database"
+});
+const jwtSecret = "jwtsecret";
+const saltRounds = 42;
+
+module.exports = {
+  portNumber,
+  db,
+  saltRounds,
+  jwtSecret
+};

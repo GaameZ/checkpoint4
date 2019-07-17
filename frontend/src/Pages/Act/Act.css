@@ -1,0 +1,40 @@
+.act-container {
+  background-color: rgb(49, 49, 49);
+  color: white;
+}
+
+.act-content {
+  min-height: 77vh;
+  margin-top: 3vh;
+}
+
+.act-list {
+  background-color: rgb(105, 105, 105);
+  min-height: 77vh;
+}
+
+.act-list li {
+  text-decoration: underline;
+}
+
+.act-description {
+  text-align: center;
+}
+
+.act-img-desc {
+  width: 100%;
+}
+
+.act-artist {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.act-img-artist {
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  vertical-align: middle;
+}

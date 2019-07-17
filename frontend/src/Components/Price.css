@@ -1,0 +1,33 @@
+.price-table,
+.price-th,
+.price-td {
+  border: 1px solid rgb(65, 101, 104);
+  border-collapse: collapse;
+  margin-top: 5%;
+}
+
+.price-th {
+  background-color: rgb(65, 101, 104);
+  color: rgb(240, 240, 240);
+}
+
+.price-th,
+.price-td {
+  padding: 1%;
+  text-align: left;
+  width: 20vw;
+}
+
+.price-table {
+  min-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price-table-button {
+  background: none;
+}
+
+.price-table-button:focus {
+  outline: none;
+}
